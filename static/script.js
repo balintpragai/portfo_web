@@ -1,0 +1,1 @@
+console.log('Why would you want to use JS? Are you out of your mind? Do you think this website would have any sort of actual interactibility? Do you think anyone would want to view this website?')
