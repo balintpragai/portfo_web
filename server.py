@@ -12,7 +12,9 @@ def landing():
 
 @app.route('/<string:page_name>')
 def html_page(page_name):
-    return render_template(page_name)
+    try:
+        return render_template(page_name)
+    except: "It looks like the page you are looking for is currently unavailable. Please check back another time. \n If the problem persists, contact the website owner."
 
 @app.route("/blog/2024/designing_this_website")
 def blog2 ():
